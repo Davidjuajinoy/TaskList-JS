@@ -1,41 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskList</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
 
 <body>
 
-
-
-
     <div class="container">
-
 
         <header class="header">
             <h1 class="header__title">
                 TaskList
             </h1>
-            
+
 
         </header>
 
         <main class="main">
-            
+
             <div class="main__task-write ">
-              
+
                 <div class="main__task-write__label">
-                    <input type="text" id="input-write" class="main__task-write__label__item" placeholder="¿Que deseas Hacer?">
-                    <button id="btn-submit" type="submit" 
+                    <input type="text" id="input-write" class="main__task-write__label__item"
+                        placeholder="¿Que deseas Hacer?">
+                    <button id="btn-submit" type="submit"
                         class="main__task-write__label__item main__task-write__label__item--width "></button>
-                        
+
                 </div>
                 <div class="main__task-write__input">
                     <input type="color" name="" id="get-color" class="main__task-write__item">
-                    <input type="datetime-local" placeholder="datetime-local no esta soportado en firefox intenta abrirlo en algun navegador que soporte" id="get-date" class="main__task-write__item">
+                    <input type="datetime-local"
+                        placeholder="datetime-local no esta soportado en firefox intenta abrirlo en algun navegador que soporte"
+                        id="get-date" class="main__task-write__item">
                 </div>
             </div>
             <ul class="main__task-list">
@@ -75,7 +76,6 @@
 
 
     </div>
-
 </body>
 
 </html>
