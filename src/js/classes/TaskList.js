@@ -6,7 +6,7 @@ export class TaskList{
     {
 
             this.loadTask();
-            console.log( this.taskList);
+            // console.log( this.taskList);
     }
 
 
@@ -32,7 +32,7 @@ export class TaskList{
     {
         // se para a Json porque no recibe string el localStorage
         localStorage.setItem('Tasks', JSON.stringify(this.taskList));
-        console.log(this.taskList);
+        // console.log(this.taskList);
     }
 
 
